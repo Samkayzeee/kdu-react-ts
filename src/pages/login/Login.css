@@ -1,0 +1,37 @@
+.login-form{
+    border: solid 1px gray;
+    padding: 3%;
+    border-radius: 6px;
+    width: 40%;
+    margin: 3% auto;
+}
+.login-form div{
+    margin: 5% 0;
+}
+.login-form div label{
+    font-size: 18px;
+}
+.login-form div input{
+    width: 100%;
+    padding: 10px 20px;
+    border: solid 1px;
+    margin-left: 5px;
+}
+.login-form button{
+    cursor: pointer;
+    width: 100%;
+    padding: 12px 0;
+    background-color: blue;
+    color: white;
+    border: none;
+    font-size: 700;
+    border-radius: 4px;
+    display: block;
+    margin: auto;
+    transition: all 0.3s ease-in-out;
+}
+.login-form button:hover{
+    background-color: white;
+    color: blue;
+    border: solid 1px blue;
+}
